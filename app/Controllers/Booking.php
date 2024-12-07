@@ -113,8 +113,6 @@ class Booking extends BaseController
         $randomString = substr(str_shuffle('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'), 0, 5);
         $idTrx = $username . '-' . $time . $date . '-' . $randomString;
 
-        // Config::$serverKey = '';
-        Config::$serverKey = '';
         Config::$isProduction = true;
         Config::$isSanitized = true;
         Config::$is3ds = true;
