@@ -8,7 +8,7 @@ class Payment extends BaseController
 {
     public function index()
     {
-        \Midtrans\Config::$serverKey = 'SB-Mid-server-kFSdivzVNRJloVn7kXJxO9NL';
+        \Midtrans\Config::$serverKey = '';
         \Midtrans\Config::$isProduction = false;
         \Midtrans\Config::$isSanitized = true;
         \Midtrans\Config::$is3ds = true;

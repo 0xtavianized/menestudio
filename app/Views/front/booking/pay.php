@@ -87,9 +87,9 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <!-- Transaksi Real -->
-<script src="https://app.midtrans.com/snap/snap.js" data-client-key="Mid-client-2AqttQK-3IV2wygz"></script>
+<script src="https://app.midtrans.com/snap/snap.js" data-client-key=""></script>
 <!-- Transaksi Sandbox -->
-<!-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-3tzrUI2pqvmp5oyY"></script> -->
+<!-- <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key=""></script> -->
 <script type="text/javascript">
     document.getElementById('pay-button').onclick = function () {
         snap.pay('<?= $snapToken ?>', {
