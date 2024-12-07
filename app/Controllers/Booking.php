@@ -114,7 +114,7 @@ class Booking extends BaseController
         $idTrx = $username . '-' . $time . $date . '-' . $randomString;
 
         // Config::$serverKey = '';
-        Config::$serverKey = 'Mid-server-0ZBgcNImlSI-HZ4o0TFOj_mL';
+        Config::$serverKey = '';
         Config::$isProduction = true;
         Config::$isSanitized = true;
         Config::$is3ds = true;
